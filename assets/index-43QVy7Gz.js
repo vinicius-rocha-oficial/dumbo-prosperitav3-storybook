@@ -8,6 +8,7 @@ import{j as a}from"./jsx-runtime-Cw0GR0a5.js";import{t,d}from"./contextual-Cr4fQ
   color: ${()=>x};
   justify-content: ${({forModal:e})=>e?"flex-start":"start"};
   position: relative;
+  outline: 0;
   margin: 0 auto;
   cursor: ${({disabled:e})=>e?"not-allowed":"pointer"};
   border: ${({disabled:e})=>e?D:$};
@@ -69,4 +70,4 @@ import{j as a}from"./jsx-runtime-Cw0GR0a5.js";import{t,d}from"./contextual-Cr4fQ
 | "small"
 | "extraLarge"
 | "twoXLarge"
-| "expressive"`,elements:[{name:"literal",value:'"large"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"small"'},{name:"literal",value:'"extraLarge"'},{name:"literal",value:'"twoXLarge"'},{name:"literal",value:'"expressive"'}]},description:""},label:{required:!1,tsType:{name:"string"},description:""},icon:{required:!1,tsType:{name:"string"},description:""},onClick:{required:!1,tsType:{name:"signature",type:"function",raw:"() => void",signature:{arguments:[],return:{name:"void"}}},description:""},loading:{required:!1,tsType:{name:"boolean"},description:""},disabled:{required:!1,tsType:{name:"boolean"},description:""},forModal:{required:!1,tsType:{name:"boolean"},description:""},children:{required:!1,tsType:{name:"ReactNode"},description:""},full:{required:!1,tsType:{name:"boolean"},description:""}}};export{S as B};
+| "expressive"`,elements:[{name:"literal",value:'"large"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"small"'},{name:"literal",value:'"extraLarge"'},{name:"literal",value:'"twoXLarge"'},{name:"literal",value:'"expressive"'}]},description:""},label:{required:!1,tsType:{name:"string"},description:""},icon:{required:!1,tsType:{name:"string"},description:""},onClick:{required:!1,tsType:{name:"signature",type:"function",raw:"() => void",signature:{arguments:[],return:{name:"void"}}},description:""},loading:{required:!1,tsType:{name:"boolean"},description:""},disabled:{required:!1,tsType:{name:"boolean"},description:""},forModal:{required:!1,tsType:{name:"boolean"},description:""},children:{required:!1,tsType:{name:"ReactNode"},description:""},full:{required:!1,tsType:{name:"boolean"},description:""}}};export{S as B,o as p};

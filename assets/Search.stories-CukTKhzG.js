@@ -1,4 +1,4 @@
-import{j as t}from"./jsx-runtime-Cw0GR0a5.js";import{r as m}from"./index-CTjT7uj6.js";import{S as f,C as x}from"./IconsInputLabel-52Ne2R0n.js";/* empty css              */import{S as L,a as q}from"./index-ClYmvwGD.js";import{d as r,t as i}from"./contextual-Cr4fQ3MC.js";const H={small:"8px",medium:"12px",large:"14px"},g=r.input`
+import{j as t}from"./jsx-runtime-Cw0GR0a5.js";import{r as m}from"./index-CTjT7uj6.js";import{S as f,C as x}from"./IconsInputLabel-PpPdO3Ft.js";/* empty css              */import{S as L,a as q}from"./index-ClYmvwGD.js";import{d as r,t as i}from"./contextual-Cr4fQ3MC.js";const H={small:"8px",medium:"12px",large:"14px"},g=r.input`
   transition: 0.2s;
   width: 100%;
   padding: ${({size:e,kind:n})=>n==="fluid"?"37px 0 10px 0":H[e||"small"]};
