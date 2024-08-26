@@ -14,7 +14,7 @@
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
--[Acessar Storybook](#https://vinicius-rocha-oficial.github.io/dumbo-prosperitav3-storybook/?path=/docs/configure-your-project--docs)
+[Acessar Storybook](https://vinicius-rocha-oficial.github.io/dumbo-prosperitav3-storybook/?path=/docs/configure-your-project--docs)
 ## Instalação
 
 Para instalar a biblioteca, use npm ou yarn:
