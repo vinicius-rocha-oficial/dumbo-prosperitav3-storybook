@@ -21,4 +21,4 @@
 Para instalar a biblioteca, use npm ou yarn:
 
 ```bash
-npm install prosperita-components
+npm install prosperita-dumbo-react
