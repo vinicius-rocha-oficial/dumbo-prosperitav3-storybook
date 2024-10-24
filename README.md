@@ -8,3 +8,5 @@ Biblioteca React para componentes altamente personalizáveis e interfaces modern
 
 ```bash
 npm install prosperita-dumbo-react
+
+yarn add prosperita-dumbo-react
