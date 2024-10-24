@@ -1,6 +1,6 @@
 # Dumbo Prosperita - React Library (v3)
 
-Biblioteca React para componentes altamente personalizáveis e interfaces modernas.
+Biblioteca React.
 
 ## Instalação
 
