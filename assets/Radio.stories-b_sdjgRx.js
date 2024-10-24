@@ -1,0 +1,104 @@
+import{j as t}from"./jsx-runtime-Cw0GR0a5.js";import{r as z}from"./index-CTjT7uj6.js";import{d as o}from"./styled-components.browser.esm-D3-gLipQ.js";/* empty css              */import{t as r}from"./contextual-D4vCP4YA.js";import{s as C}from"./statusicon-BiyrYhQW.js";import{w as P}from"./Warningfilled-CR6tEm8M.js";const S=o.div`
+  display: flex;
+  flex-direction: ${({orientation:e})=>e==="horizontal"?"row":"column"};
+  margin: ${({orientation:e})=>e==="horizontal"?"0px":"8px auto"};
+  padding: 0;
+  width: ${({label:e,radio:a})=>e||a?"auto":"18px"};
+  gap: ${({orientation:e})=>e==="horizontal"?"10px":"6px"};
+`,F=o.h1`
+  color: ${({disabled:e})=>e?`${r.borderDisabled}`:` ${r.textSecondary}`};
+  font-family: IBM Plex Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.32px;
+  margin: 0 0 5px 0;
+  text-align: start;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+`,u=o.input`
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  border: ${({error:e,disabled:a})=>e?`2px solid ${r.supportError}`:a?`1px solid ${r.borderDisabled}`:`1px solid ${r.textPrimary}`};
+  border-radius: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  cursor: pointer;
+  &:checked::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background: ${r.iconPrimary};
+    position: absolute;
+    aling-self: center;
+    transform: translateY(-50%, -50%);
+    margin: 0;
+    padding: 0;
+  }
+`,g=o.div`
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: ${({orientation:e})=>e==="horizontal"?"7px auto":"0"};
+  padding: 0;
+  width: auto;
+  align-self: start;
+  gap: 8px;
+`,h=o.label`
+  color: ${({disabled:e})=>e?`${r.borderDisabled}`:` ${r.textPrimary}`};
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  max-width: 200px;
+  word-wrap: break-word;
+  letter-spacing: 0.16px;
+  text-align: start;
+  cursor: pointer;
+`,H=o.p`
+  color: ${({disabled:e})=>e?`${r.borderDisabled}`:` ${r.textPrimary}`};
+  font-family: IBM Plex Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  max-width: 200px;
+  word-wrap: break-word;
+  letter-spacing: 0.16px;
+  text-align: start;
+  cursor: pointer;
+  margin: 0;
+`,I=e=>{const{warning:a,error:n,disabled:l,title:j,onChange:E,InvalidText:R,texthelp:$,orientation:L,radio:p,label:m,name:q,value:x,onClick:k,checked:M}=e;return t.jsxs(t.Fragment,{children:[t.jsx(F,{...e,children:j}),t.jsx(t.Fragment,{children:t.jsx(S,{orientation:L,label:m,...e,children:(p==null?void 0:p.map((i,c)=>z.createElement(g,{disabled:l,...e,key:c},t.jsx(u,{type:"radio",name:i.name,value:i.value,onChange:i.onChange,id:i.value,disabled:l,error:n},c),t.jsx(h,{for:i.value,...e,children:i.label}))))||t.jsx(t.Fragment,{children:t.jsxs(g,{disabled:l,...e,children:[t.jsx(u,{type:"radio",disabled:l,label:m,value:x,name:q,onChange:E,id:x,error:n,checked:M,onClick:k}),t.jsx(h,{for:x,...e,children:m})]})})})}),t.jsxs(t.Fragment,{children:[!n&&!a&&t.jsx(H,{disabled:l,...e,children:$}),(n||a)&&t.jsx(t.Fragment,{children:t.jsxs("div",{style:{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"start",gap:"5px",margin:"0",width:"100%"},children:[t.jsx("img",{src:n?P:C,style:{width:"15px",height:"15px",margin:"0"}}),t.jsx("p",{style:{margin:"0",fontFamily:"IBM Plex Sans",fontSize:"12px",color:n?r.textError:r.textPrimary},children:R})]})})]})]})};I.__docgenInfo={description:"",methods:[],displayName:"Radio",props:{disabled:{required:!1,tsType:{name:"boolean"},description:""},error:{required:!1,tsType:{name:"boolean"},description:""},warning:{required:!1,tsType:{name:"boolean"},description:""},title:{required:!1,tsType:{name:"string"},description:""},InvalidText:{required:!1,tsType:{name:"string"},description:""},for:{required:!1,tsType:{name:"string"},description:""},orientation:{required:!1,tsType:{name:"union",raw:'"horizontal" | "vertical"',elements:[{name:"literal",value:'"horizontal"'},{name:"literal",value:'"vertical"'}]},description:""},texthelp:{required:!1,tsType:{name:"string"},description:""},radio:{required:!1,tsType:{name:"Array",elements:[{name:"intersection",raw:`InputHTMLAttributes<HTMLInputElement> & {\r
+  label?: string;\r
+  name?: string;\r
+  value?: string;\r
+}`,elements:[{name:"InputHTMLAttributes",elements:[{name:"HTMLInputElement"}],raw:"InputHTMLAttributes<HTMLInputElement>"},{name:"signature",type:"object",raw:`{\r
+  label?: string;\r
+  name?: string;\r
+  value?: string;\r
+}`,signature:{properties:[{key:"label",value:{name:"string",required:!1}},{key:"name",value:{name:"string",required:!1}},{key:"value",value:{name:"string",required:!1}}]}}]}],raw:"TypeRadioprops[]"},description:""},label:{required:!1,tsType:{name:"string"},description:""},name:{required:!1,tsType:{name:"string"},description:""},value:{required:!1,tsType:{name:"string"},description:""}}};const Y={title:"Example/Radio",component:I,parameters:{layout:"centered"},tags:["autodocs"]},D=[{label:"Radio button label 1",name:"radio",value:"Label test 1",onChange:e=>console.log(e.target.value)},{label:"Radio button label 2",onChange:e=>console.log(e.target.value),name:"radio",value:"Label 2"}],s={args:{title:"Exemplo Text",texthelp:"Text Exemplo Label text",InvalidText:"Warning Messege Exemplo Input Radio",label:"Radio button ",value:"Label 2",checked:!0}},d={args:{radio:D,title:"Group Radio",texthelp:"Text Exemplo Label text",InvalidText:"Warning Messege Exemplo Input Radio",orientation:"horizontal"}};var f,b,y;s.parameters={...s.parameters,docs:{...(f=s.parameters)==null?void 0:f.docs,source:{originalSource:`{
+  args: {
+    title: "Exemplo Text",
+    texthelp: "Text Exemplo Label text",
+    InvalidText: "Warning Messege Exemplo Input Radio",
+    label: "Radio button ",
+    value: "Label 2",
+    checked: true
+  }
+}`,...(y=(b=s.parameters)==null?void 0:b.docs)==null?void 0:y.source}}};var T,v,w;d.parameters={...d.parameters,docs:{...(T=d.parameters)==null?void 0:T.docs,source:{originalSource:`{
+  args: {
+    radio: arrExemplo,
+    title: "Group Radio",
+    texthelp: "Text Exemplo Label text",
+    InvalidText: "Warning Messege Exemplo Input Radio",
+    orientation: "horizontal"
+  }
+}`,...(w=(v=d.parameters)==null?void 0:v.docs)==null?void 0:w.source}}};const J=["defaultRadio","RadioGroup"];export{d as RadioGroup,J as __namedExportsOrder,Y as default,s as defaultRadio};
