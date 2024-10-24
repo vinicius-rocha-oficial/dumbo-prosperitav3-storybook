@@ -4,7 +4,7 @@ Biblioteca React para componentes altamente personalizáveis e interfaces modern
 
 ## Instalação
 
-### Usando npm:
+### Usando:
 
 ```bash
 npm install prosperita-dumbo-react
